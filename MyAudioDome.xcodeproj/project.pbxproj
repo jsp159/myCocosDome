@@ -27,6 +27,7 @@
 		7225FA161FD67BFD00B63F00 /* Approaching Nirvana-Quixote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7225FA141FD67BFD00B63F00 /* Approaching Nirvana-Quixote.mp3 */; };
 		722B6B002018A0A900B8ED1D /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 722B6AFF2018A0A900B8ED1D /* libmp3lame.a */; };
 		722B6B032018A0B800B8ED1D /* ExtAudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B6B022018A0B800B8ED1D /* ExtAudioConverter.m */; };
+		7249917120804B2D006C9CB6 /* myGitHubTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7249917020804B2D006C9CB6 /* myGitHubTestVC.m */; };
 		724AE3B6202D359D00CAD4AC /* SoundEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3B5202D359D00CAD4AC /* SoundEffectVC.m */; };
 		724AE3BA202D45BD00CAD4AC /* MoreEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3B9202D45BD00CAD4AC /* MoreEffectVC.m */; };
 		724AE3CD202D4EA000CAD4AC /* ExpanderFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3CB202D4EA000CAD4AC /* ExpanderFilterVC.m */; };
@@ -146,6 +147,8 @@
 		722B6AFF2018A0A900B8ED1D /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
 		722B6B012018A0B800B8ED1D /* ExtAudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtAudioConverter.h; sourceTree = "<group>"; };
 		722B6B022018A0B800B8ED1D /* ExtAudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtAudioConverter.m; sourceTree = "<group>"; };
+		7249916F20804B2C006C9CB6 /* myGitHubTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myGitHubTestVC.h; sourceTree = "<group>"; };
+		7249917020804B2D006C9CB6 /* myGitHubTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myGitHubTestVC.m; sourceTree = "<group>"; };
 		724AE3B4202D359D00CAD4AC /* SoundEffectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectVC.h; sourceTree = "<group>"; };
 		724AE3B5202D359D00CAD4AC /* SoundEffectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffectVC.m; sourceTree = "<group>"; };
 		724AE3B8202D45BD00CAD4AC /* MoreEffectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreEffectVC.h; sourceTree = "<group>"; };
@@ -334,6 +337,8 @@
 				72144C60201C11F0009CB079 /* view */,
 				7225F8FB1FBD65B800B63F00 /* AppDelegate.h */,
 				7225F8FC1FBD65B800B63F00 /* AppDelegate.m */,
+				7249916F20804B2C006C9CB6 /* myGitHubTestVC.h */,
+				7249917020804B2D006C9CB6 /* myGitHubTestVC.m */,
 				72E18ACA207B1B3000CCF31C /* RACTestVC.h */,
 				72E18ACB207B1B3000CCF31C /* RACTestVC.m */,
 				72C3301E207F030600D152FA /* RACOtherVC.h */,
@@ -841,6 +846,7 @@
 				724AE418202D4FCB00CAD4AC /* VarispeedFilterVC.m in Sources */,
 				72E18AD4207B6FD400CCF31C /* RequestModel.m in Sources */,
 				7225F8FA1FBD65B800B63F00 /* main.m in Sources */,
+				7249917120804B2D006C9CB6 /* myGitHubTestVC.m in Sources */,
 				72C33021207F030600D152FA /* RACOtherVC.m in Sources */,
 				724AE3F5202D4F4100CAD4AC /* LimiterFilterVC.m in Sources */,
 				72E18ACC207B1B3000CCF31C /* RACTestVC.m in Sources */,
