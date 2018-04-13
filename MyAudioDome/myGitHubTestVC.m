@@ -18,6 +18,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor blueColor];
+    
+    [self createUI];
+}
+
+- (void)createUI
+{
+    UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:btn];
+    [btn setTitle:@"点击" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    
 }
 
 - (void)didReceiveMemoryWarning {
