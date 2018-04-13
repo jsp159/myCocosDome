@@ -29,6 +29,7 @@
     [btn setTitle:@"点击" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     
+    NSLog(@"this is test...");
 }
 
 - (void)didReceiveMemoryWarning {
