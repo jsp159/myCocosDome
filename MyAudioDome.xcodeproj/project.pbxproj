@@ -1,0 +1,1132 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72144C63201C1206009CB079 /* SoundSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 72144C62201C1206009CB079 /* SoundSlider.m */; };
+		72144C66201C232F009CB079 /* BgMusicButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 72144C65201C232F009CB079 /* BgMusicButton.m */; };
+		72144C69201C2783009CB079 /* TBCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72144C68201C2783009CB079 /* TBCycleView.m */; };
+		7225F8FA1FBD65B800B63F00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7225F8F91FBD65B800B63F00 /* main.m */; };
+		7225F8FD1FBD65B800B63F00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7225F8FC1FBD65B800B63F00 /* AppDelegate.m */; };
+		7225F9001FBD65B800B63F00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7225F8FF1FBD65B800B63F00 /* ViewController.m */; };
+		7225F9031FBD65B800B63F00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7225F9011FBD65B800B63F00 /* Main.storyboard */; };
+		7225F9051FBD65B800B63F00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7225F9041FBD65B800B63F00 /* Assets.xcassets */; };
+		7225F9081FBD65B800B63F00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7225F9061FBD65B800B63F00 /* LaunchScreen.storyboard */; };
+		7225F9131FBD65B800B63F00 /* MyAudioDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7225F9121FBD65B800B63F00 /* MyAudioDomeTests.m */; };
+		7225F91E1FBD65B800B63F00 /* MyAudioDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7225F91D1FBD65B800B63F00 /* MyAudioDomeUITests.m */; };
+		7225F92C1FBD698E00B63F00 /* SNH48-天使与恶魔.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7225F92B1FBD698E00B63F00 /* SNH48-天使与恶魔.mp3 */; };
+		7225F9A01FC6CBBB00B63F00 /* 谢安琪-喜帖街.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7225F99F1FC6CBBB00B63F00 /* 谢安琪-喜帖街.mp3 */; };
+		7225F9A21FC8012700B63F00 /* 陈奕迅-富士山下.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7225F9A11FC8012700B63F00 /* 陈奕迅-富士山下.mp3 */; };
+		7225F9BB1FCEADE800B63F00 /* 胡杏儿-感激遇到你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7225F9BA1FCEADE800B63F00 /* 胡杏儿-感激遇到你.mp3 */; };
+		7225F9D11FD1515100B63F00 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7225F9D01FD1515100B63F00 /* SecondVC.m */; };
+		7225FA151FD67BFD00B63F00 /* 7 AND 5-Remember.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7225FA131FD67BFD00B63F00 /* 7 AND 5-Remember.mp3 */; };
+		7225FA161FD67BFD00B63F00 /* Approaching Nirvana-Quixote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7225FA141FD67BFD00B63F00 /* Approaching Nirvana-Quixote.mp3 */; };
+		722B6B002018A0A900B8ED1D /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 722B6AFF2018A0A900B8ED1D /* libmp3lame.a */; };
+		722B6B032018A0B800B8ED1D /* ExtAudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B6B022018A0B800B8ED1D /* ExtAudioConverter.m */; };
+		7249917120804B2D006C9CB6 /* myGitHubTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7249917020804B2D006C9CB6 /* myGitHubTestVC.m */; };
+		724AE3B6202D359D00CAD4AC /* SoundEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3B5202D359D00CAD4AC /* SoundEffectVC.m */; };
+		724AE3BA202D45BD00CAD4AC /* MoreEffectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3B9202D45BD00CAD4AC /* MoreEffectVC.m */; };
+		724AE3CD202D4EA000CAD4AC /* ExpanderFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3CB202D4EA000CAD4AC /* ExpanderFilterVC.m */; };
+		724AE3CE202D4EA000CAD4AC /* ExpanderFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE3CC202D4EA000CAD4AC /* ExpanderFilterVC.xib */; };
+		724AE3D2202D4EBA00CAD4AC /* AudioUnitFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3D0202D4EBA00CAD4AC /* AudioUnitFilterVC.m */; };
+		724AE3D3202D4EBA00CAD4AC /* AudioUnitFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE3D1202D4EBA00CAD4AC /* AudioUnitFilterVC.xib */; };
+		724AE3D7202D4ED100CAD4AC /* BandpassFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3D5202D4ED100CAD4AC /* BandpassFilterVC.m */; };
+		724AE3D8202D4ED100CAD4AC /* BandpassFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE3D6202D4ED100CAD4AC /* BandpassFilterVC.xib */; };
+		724AE3DC202D4EE200CAD4AC /* DelayFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3DA202D4EE200CAD4AC /* DelayFilterVC.m */; };
+		724AE3DD202D4EE200CAD4AC /* DelayFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE3DB202D4EE200CAD4AC /* DelayFilterVC.xib */; };
+		724AE3E1202D4EF500CAD4AC /* DistortionFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3DF202D4EF500CAD4AC /* DistortionFilterVC.m */; };
+		724AE3E2202D4EF500CAD4AC /* DistortionFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE3E0202D4EF500CAD4AC /* DistortionFilterVC.xib */; };
+		724AE3E6202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3E4202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.m */; };
+		724AE3E7202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE3E5202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.xib */; };
+		724AE3EB202D4F1E00CAD4AC /* HighPassFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3E9202D4F1E00CAD4AC /* HighPassFilterVC.m */; };
+		724AE3EC202D4F1E00CAD4AC /* HighPassFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE3EA202D4F1E00CAD4AC /* HighPassFilterVC.xib */; };
+		724AE3F0202D4F2E00CAD4AC /* HighShelfFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3EE202D4F2E00CAD4AC /* HighShelfFilterVC.m */; };
+		724AE3F1202D4F2E00CAD4AC /* HighShelfFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE3EF202D4F2E00CAD4AC /* HighShelfFilterVC.xib */; };
+		724AE3F5202D4F4100CAD4AC /* LimiterFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3F3202D4F4100CAD4AC /* LimiterFilterVC.m */; };
+		724AE3F6202D4F4100CAD4AC /* LimiterFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE3F4202D4F4100CAD4AC /* LimiterFilterVC.xib */; };
+		724AE3FA202D4F5200CAD4AC /* LowPassFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3F8202D4F5200CAD4AC /* LowPassFilterVC.m */; };
+		724AE3FB202D4F5200CAD4AC /* LowPassFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE3F9202D4F5200CAD4AC /* LowPassFilterVC.xib */; };
+		724AE3FF202D4F6100CAD4AC /* LowShelfFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE3FD202D4F6100CAD4AC /* LowShelfFilterVC.m */; };
+		724AE400202D4F6100CAD4AC /* LowShelfFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE3FE202D4F6100CAD4AC /* LowShelfFilterVC.xib */; };
+		724AE404202D4F7300CAD4AC /* NewTimePitchFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE402202D4F7300CAD4AC /* NewTimePitchFilterVC.m */; };
+		724AE405202D4F7300CAD4AC /* NewTimePitchFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE403202D4F7300CAD4AC /* NewTimePitchFilterVC.xib */; };
+		724AE409202D4F8400CAD4AC /* ParametricEqFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE407202D4F8400CAD4AC /* ParametricEqFilterVC.m */; };
+		724AE40A202D4F8400CAD4AC /* ParametricEqFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE408202D4F8400CAD4AC /* ParametricEqFilterVC.xib */; };
+		724AE40E202D4F9300CAD4AC /* PeakLimiterFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE40C202D4F9300CAD4AC /* PeakLimiterFilterVC.m */; };
+		724AE40F202D4F9300CAD4AC /* PeakLimiterFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE40D202D4F9300CAD4AC /* PeakLimiterFilterVC.xib */; };
+		724AE413202D4FA300CAD4AC /* ReverbFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE411202D4FA300CAD4AC /* ReverbFilterVC.m */; };
+		724AE414202D4FA300CAD4AC /* ReverbFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE412202D4FA300CAD4AC /* ReverbFilterVC.xib */; };
+		724AE418202D4FCB00CAD4AC /* VarispeedFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE416202D4FCB00CAD4AC /* VarispeedFilterVC.m */; };
+		724AE419202D4FCB00CAD4AC /* VarispeedFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 724AE417202D4FCB00CAD4AC /* VarispeedFilterVC.xib */; };
+		726807501FF1DD8B00927817 /* RecordAudioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7268074F1FF1DD8B00927817 /* RecordAudioVC.m */; };
+		726807541FF34E2E00927817 /* JX_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807531FF34E2E00927817 /* JX_GCDTimerManager.m */; };
+		726807571FF388AE00927817 /* CutAudioFileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807561FF388AE00927817 /* CutAudioFileVC.m */; };
+		7268075A1FF4829700927817 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807591FF4829700927817 /* MBProgressHUD+Add.m */; };
+		7268075F1FF4CE1900927817 /* WaveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7268075E1FF4CE1900927817 /* WaveVC.m */; };
+		726807621FF4D0BC00927817 /* HWDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807611FF4D0BC00927817 /* HWDrawView.m */; };
+		7268078D1FFCE5A800927817 /* BgMusicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7268078C1FFCE5A800927817 /* BgMusicItem.m */; };
+		726807901FFCE5C500927817 /* BgMusicItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7268078F1FFCE5C500927817 /* BgMusicItemModel.m */; };
+		726807931FFCF19000927817 /* head1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 726807911FFCF19000927817 /* head1.jpg */; };
+		726807941FFCF19000927817 /* head1.png in Resources */ = {isa = PBXBuildFile; fileRef = 726807921FFCF19000927817 /* head1.png */; };
+		726807971FFDC84300927817 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807961FFDC84300927817 /* HttpTool.m */; };
+		726807BA1FFE0A4B00927817 /* AudioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807B01FFE0A4B00927817 /* AudioButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		726807BB1FFE0A4B00927817 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807B21FFE0A4B00927817 /* AudioPlayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		726807BC1FFE0A4B00927817 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807B41FFE0A4B00927817 /* AudioStreamer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		726807BD1FFE0A4B00927817 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 726807B61FFE0A4B00927817 /* loading.png */; };
+		726807E41FFF608E00927817 /* DownLoadOrUpLoadFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807E31FFF608E00927817 /* DownLoadOrUpLoadFileManager.m */; };
+		726807EC1FFF797F00927817 /* MCDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807E71FFF797F00927817 /* MCDownloader.m */; };
+		726807ED1FFF797F00927817 /* MCDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807E91FFF797F00927817 /* MCDownloadOperation.m */; };
+		726807EE1FFF797F00927817 /* MCDownloadReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 726807EB1FFF797F00927817 /* MCDownloadReceipt.m */; };
+		72C239361FDA227A007CD7E8 /* SelectMusicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C239351FDA227A007CD7E8 /* SelectMusicVC.m */; };
+		72C33021207F030600D152FA /* RACOtherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C3301F207F030600D152FA /* RACOtherVC.m */; };
+		72C33022207F030600D152FA /* RACOtherVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72C33020207F030600D152FA /* RACOtherVC.xib */; };
+		72C33028207F4D8900D152FA /* myGitTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C33027207F4D8900D152FA /* myGitTestVC.m */; };
+		72C5E6DD200F41ED004885CC /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C5E6DC200F41ED004885CC /* Track.m */; };
+		72E18AC92079F51100CCF31C /* emotions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72E18AC82079F51100CCF31C /* emotions.plist */; };
+		72E18ACC207B1B3000CCF31C /* RACTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E18ACB207B1B3000CCF31C /* RACTestVC.m */; };
+		72E18AD0207B6D6500CCF31C /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E18ACF207B6D6500CCF31C /* RequestViewModel.m */; };
+		72E18AD4207B6FD400CCF31C /* RequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E18AD3207B6FD400CCF31C /* RequestModel.m */; };
+		E3B0E48F9D20FDD3F0EE42C0 /* libPods-MyAudioDome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5624EA0C68BFB8D966340195 /* libPods-MyAudioDome.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7225F90F1FBD65B800B63F00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7225F8ED1FBD65B800B63F00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7225F8F41FBD65B800B63F00;
+			remoteInfo = MyAudioDome;
+		};
+		7225F91A1FBD65B800B63F00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7225F8ED1FBD65B800B63F00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7225F8F41FBD65B800B63F00;
+			remoteInfo = MyAudioDome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16F6E03495B3332B9C6A1D96 /* Pods-MyAudioDome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAudioDome.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyAudioDome/Pods-MyAudioDome.release.xcconfig"; sourceTree = "<group>"; };
+		5624EA0C68BFB8D966340195 /* libPods-MyAudioDome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyAudioDome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72144C61201C1206009CB079 /* SoundSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundSlider.h; sourceTree = "<group>"; };
+		72144C62201C1206009CB079 /* SoundSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundSlider.m; sourceTree = "<group>"; };
+		72144C64201C232F009CB079 /* BgMusicButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BgMusicButton.h; sourceTree = "<group>"; };
+		72144C65201C232F009CB079 /* BgMusicButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BgMusicButton.m; sourceTree = "<group>"; };
+		72144C67201C2783009CB079 /* TBCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCycleView.h; sourceTree = "<group>"; };
+		72144C68201C2783009CB079 /* TBCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCycleView.m; sourceTree = "<group>"; };
+		7225F8F51FBD65B800B63F00 /* MyAudioDome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAudioDome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7225F8F91FBD65B800B63F00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7225F8FB1FBD65B800B63F00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7225F8FC1FBD65B800B63F00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7225F8FE1FBD65B800B63F00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7225F8FF1FBD65B800B63F00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7225F9021FBD65B800B63F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7225F9041FBD65B800B63F00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7225F9071FBD65B800B63F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7225F9091FBD65B800B63F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7225F90E1FBD65B800B63F00 /* MyAudioDomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAudioDomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7225F9121FBD65B800B63F00 /* MyAudioDomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAudioDomeTests.m; sourceTree = "<group>"; };
+		7225F9141FBD65B800B63F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7225F9191FBD65B800B63F00 /* MyAudioDomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAudioDomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7225F91D1FBD65B800B63F00 /* MyAudioDomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAudioDomeUITests.m; sourceTree = "<group>"; };
+		7225F91F1FBD65B800B63F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7225F92B1FBD698E00B63F00 /* SNH48-天使与恶魔.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SNH48-天使与恶魔.mp3"; sourceTree = "<group>"; };
+		7225F99F1FC6CBBB00B63F00 /* 谢安琪-喜帖街.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "谢安琪-喜帖街.mp3"; sourceTree = "<group>"; };
+		7225F9A11FC8012700B63F00 /* 陈奕迅-富士山下.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "陈奕迅-富士山下.mp3"; sourceTree = "<group>"; };
+		7225F9BA1FCEADE800B63F00 /* 胡杏儿-感激遇到你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "胡杏儿-感激遇到你.mp3"; sourceTree = "<group>"; };
+		7225F9CF1FD1515100B63F00 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		7225F9D01FD1515100B63F00 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		7225FA131FD67BFD00B63F00 /* 7 AND 5-Remember.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "7 AND 5-Remember.mp3"; sourceTree = "<group>"; };
+		7225FA141FD67BFD00B63F00 /* Approaching Nirvana-Quixote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Approaching Nirvana-Quixote.mp3"; sourceTree = "<group>"; };
+		722B6AFE2018A0A900B8ED1D /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		722B6AFF2018A0A900B8ED1D /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		722B6B012018A0B800B8ED1D /* ExtAudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtAudioConverter.h; sourceTree = "<group>"; };
+		722B6B022018A0B800B8ED1D /* ExtAudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtAudioConverter.m; sourceTree = "<group>"; };
+		7249916F20804B2C006C9CB6 /* myGitHubTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myGitHubTestVC.h; sourceTree = "<group>"; };
+		7249917020804B2D006C9CB6 /* myGitHubTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myGitHubTestVC.m; sourceTree = "<group>"; };
+		724AE3B4202D359D00CAD4AC /* SoundEffectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectVC.h; sourceTree = "<group>"; };
+		724AE3B5202D359D00CAD4AC /* SoundEffectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffectVC.m; sourceTree = "<group>"; };
+		724AE3B8202D45BD00CAD4AC /* MoreEffectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreEffectVC.h; sourceTree = "<group>"; };
+		724AE3B9202D45BD00CAD4AC /* MoreEffectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreEffectVC.m; sourceTree = "<group>"; };
+		724AE3CA202D4EA000CAD4AC /* ExpanderFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpanderFilterVC.h; sourceTree = "<group>"; };
+		724AE3CB202D4EA000CAD4AC /* ExpanderFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpanderFilterVC.m; sourceTree = "<group>"; };
+		724AE3CC202D4EA000CAD4AC /* ExpanderFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpanderFilterVC.xib; sourceTree = "<group>"; };
+		724AE3CF202D4EBA00CAD4AC /* AudioUnitFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioUnitFilterVC.h; sourceTree = "<group>"; };
+		724AE3D0202D4EBA00CAD4AC /* AudioUnitFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioUnitFilterVC.m; sourceTree = "<group>"; };
+		724AE3D1202D4EBA00CAD4AC /* AudioUnitFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioUnitFilterVC.xib; sourceTree = "<group>"; };
+		724AE3D4202D4ED100CAD4AC /* BandpassFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandpassFilterVC.h; sourceTree = "<group>"; };
+		724AE3D5202D4ED100CAD4AC /* BandpassFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BandpassFilterVC.m; sourceTree = "<group>"; };
+		724AE3D6202D4ED100CAD4AC /* BandpassFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BandpassFilterVC.xib; sourceTree = "<group>"; };
+		724AE3D9202D4EE200CAD4AC /* DelayFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayFilterVC.h; sourceTree = "<group>"; };
+		724AE3DA202D4EE200CAD4AC /* DelayFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayFilterVC.m; sourceTree = "<group>"; };
+		724AE3DB202D4EE200CAD4AC /* DelayFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DelayFilterVC.xib; sourceTree = "<group>"; };
+		724AE3DE202D4EF500CAD4AC /* DistortionFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistortionFilterVC.h; sourceTree = "<group>"; };
+		724AE3DF202D4EF500CAD4AC /* DistortionFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistortionFilterVC.m; sourceTree = "<group>"; };
+		724AE3E0202D4EF500CAD4AC /* DistortionFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DistortionFilterVC.xib; sourceTree = "<group>"; };
+		724AE3E3202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicsProcessorFilterVC.h; sourceTree = "<group>"; };
+		724AE3E4202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicsProcessorFilterVC.m; sourceTree = "<group>"; };
+		724AE3E5202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicsProcessorFilterVC.xib; sourceTree = "<group>"; };
+		724AE3E8202D4F1E00CAD4AC /* HighPassFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighPassFilterVC.h; sourceTree = "<group>"; };
+		724AE3E9202D4F1E00CAD4AC /* HighPassFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighPassFilterVC.m; sourceTree = "<group>"; };
+		724AE3EA202D4F1E00CAD4AC /* HighPassFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighPassFilterVC.xib; sourceTree = "<group>"; };
+		724AE3ED202D4F2E00CAD4AC /* HighShelfFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighShelfFilterVC.h; sourceTree = "<group>"; };
+		724AE3EE202D4F2E00CAD4AC /* HighShelfFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighShelfFilterVC.m; sourceTree = "<group>"; };
+		724AE3EF202D4F2E00CAD4AC /* HighShelfFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighShelfFilterVC.xib; sourceTree = "<group>"; };
+		724AE3F2202D4F4100CAD4AC /* LimiterFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimiterFilterVC.h; sourceTree = "<group>"; };
+		724AE3F3202D4F4100CAD4AC /* LimiterFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimiterFilterVC.m; sourceTree = "<group>"; };
+		724AE3F4202D4F4100CAD4AC /* LimiterFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LimiterFilterVC.xib; sourceTree = "<group>"; };
+		724AE3F7202D4F5200CAD4AC /* LowPassFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowPassFilterVC.h; sourceTree = "<group>"; };
+		724AE3F8202D4F5200CAD4AC /* LowPassFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowPassFilterVC.m; sourceTree = "<group>"; };
+		724AE3F9202D4F5200CAD4AC /* LowPassFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LowPassFilterVC.xib; sourceTree = "<group>"; };
+		724AE3FC202D4F6100CAD4AC /* LowShelfFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowShelfFilterVC.h; sourceTree = "<group>"; };
+		724AE3FD202D4F6100CAD4AC /* LowShelfFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowShelfFilterVC.m; sourceTree = "<group>"; };
+		724AE3FE202D4F6100CAD4AC /* LowShelfFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LowShelfFilterVC.xib; sourceTree = "<group>"; };
+		724AE401202D4F7300CAD4AC /* NewTimePitchFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTimePitchFilterVC.h; sourceTree = "<group>"; };
+		724AE402202D4F7300CAD4AC /* NewTimePitchFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTimePitchFilterVC.m; sourceTree = "<group>"; };
+		724AE403202D4F7300CAD4AC /* NewTimePitchFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTimePitchFilterVC.xib; sourceTree = "<group>"; };
+		724AE406202D4F8400CAD4AC /* ParametricEqFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParametricEqFilterVC.h; sourceTree = "<group>"; };
+		724AE407202D4F8400CAD4AC /* ParametricEqFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParametricEqFilterVC.m; sourceTree = "<group>"; };
+		724AE408202D4F8400CAD4AC /* ParametricEqFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParametricEqFilterVC.xib; sourceTree = "<group>"; };
+		724AE40B202D4F9300CAD4AC /* PeakLimiterFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeakLimiterFilterVC.h; sourceTree = "<group>"; };
+		724AE40C202D4F9300CAD4AC /* PeakLimiterFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeakLimiterFilterVC.m; sourceTree = "<group>"; };
+		724AE40D202D4F9300CAD4AC /* PeakLimiterFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeakLimiterFilterVC.xib; sourceTree = "<group>"; };
+		724AE410202D4FA300CAD4AC /* ReverbFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverbFilterVC.h; sourceTree = "<group>"; };
+		724AE411202D4FA300CAD4AC /* ReverbFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverbFilterVC.m; sourceTree = "<group>"; };
+		724AE412202D4FA300CAD4AC /* ReverbFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReverbFilterVC.xib; sourceTree = "<group>"; };
+		724AE415202D4FCB00CAD4AC /* VarispeedFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarispeedFilterVC.h; sourceTree = "<group>"; };
+		724AE416202D4FCB00CAD4AC /* VarispeedFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarispeedFilterVC.m; sourceTree = "<group>"; };
+		724AE417202D4FCB00CAD4AC /* VarispeedFilterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VarispeedFilterVC.xib; sourceTree = "<group>"; };
+		7268074E1FF1DD8B00927817 /* RecordAudioVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordAudioVC.h; sourceTree = "<group>"; };
+		7268074F1FF1DD8B00927817 /* RecordAudioVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordAudioVC.m; sourceTree = "<group>"; };
+		726807521FF34E2E00927817 /* JX_GCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX_GCDTimerManager.h; sourceTree = "<group>"; };
+		726807531FF34E2E00927817 /* JX_GCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX_GCDTimerManager.m; sourceTree = "<group>"; };
+		726807551FF388AE00927817 /* CutAudioFileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutAudioFileVC.h; sourceTree = "<group>"; };
+		726807561FF388AE00927817 /* CutAudioFileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutAudioFileVC.m; sourceTree = "<group>"; };
+		726807581FF4829700927817 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		726807591FF4829700927817 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		7268075D1FF4CE1900927817 /* WaveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveVC.h; sourceTree = "<group>"; };
+		7268075E1FF4CE1900927817 /* WaveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveVC.m; sourceTree = "<group>"; };
+		726807601FF4D0BC00927817 /* HWDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDrawView.h; sourceTree = "<group>"; };
+		726807611FF4D0BC00927817 /* HWDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDrawView.m; sourceTree = "<group>"; };
+		7268078B1FFCE5A800927817 /* BgMusicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BgMusicItem.h; sourceTree = "<group>"; };
+		7268078C1FFCE5A800927817 /* BgMusicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BgMusicItem.m; sourceTree = "<group>"; };
+		7268078E1FFCE5C500927817 /* BgMusicItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BgMusicItemModel.h; sourceTree = "<group>"; };
+		7268078F1FFCE5C500927817 /* BgMusicItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BgMusicItemModel.m; sourceTree = "<group>"; };
+		726807911FFCF19000927817 /* head1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head1.jpg; sourceTree = "<group>"; };
+		726807921FFCF19000927817 /* head1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head1.png; sourceTree = "<group>"; };
+		726807951FFDC84300927817 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		726807961FFDC84300927817 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		726807AF1FFE0A4B00927817 /* AudioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioButton.h; sourceTree = "<group>"; };
+		726807B01FFE0A4B00927817 /* AudioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioButton.m; sourceTree = "<group>"; };
+		726807B11FFE0A4B00927817 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		726807B21FFE0A4B00927817 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		726807B31FFE0A4B00927817 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		726807B41FFE0A4B00927817 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		726807B61FFE0A4B00927817 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		726807E21FFF608E00927817 /* DownLoadOrUpLoadFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadOrUpLoadFileManager.h; sourceTree = "<group>"; };
+		726807E31FFF608E00927817 /* DownLoadOrUpLoadFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadOrUpLoadFileManager.m; sourceTree = "<group>"; };
+		726807E61FFF797F00927817 /* MCDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDownloader.h; sourceTree = "<group>"; };
+		726807E71FFF797F00927817 /* MCDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDownloader.m; sourceTree = "<group>"; };
+		726807E81FFF797F00927817 /* MCDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDownloadOperation.h; sourceTree = "<group>"; };
+		726807E91FFF797F00927817 /* MCDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDownloadOperation.m; sourceTree = "<group>"; };
+		726807EA1FFF797F00927817 /* MCDownloadReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCDownloadReceipt.h; sourceTree = "<group>"; };
+		726807EB1FFF797F00927817 /* MCDownloadReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCDownloadReceipt.m; sourceTree = "<group>"; };
+		72C239341FDA227A007CD7E8 /* SelectMusicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectMusicVC.h; sourceTree = "<group>"; };
+		72C239351FDA227A007CD7E8 /* SelectMusicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectMusicVC.m; sourceTree = "<group>"; };
+		72C3301E207F030600D152FA /* RACOtherVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACOtherVC.h; sourceTree = "<group>"; };
+		72C3301F207F030600D152FA /* RACOtherVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACOtherVC.m; sourceTree = "<group>"; };
+		72C33020207F030600D152FA /* RACOtherVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RACOtherVC.xib; sourceTree = "<group>"; };
+		72C33026207F4D8900D152FA /* myGitTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myGitTestVC.h; sourceTree = "<group>"; };
+		72C33027207F4D8900D152FA /* myGitTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myGitTestVC.m; sourceTree = "<group>"; };
+		72C5E6DB200F41ED004885CC /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		72C5E6DC200F41ED004885CC /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		72E18AC82079F51100CCF31C /* emotions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = emotions.plist; sourceTree = "<group>"; };
+		72E18ACA207B1B3000CCF31C /* RACTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACTestVC.h; sourceTree = "<group>"; };
+		72E18ACB207B1B3000CCF31C /* RACTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACTestVC.m; sourceTree = "<group>"; };
+		72E18ACE207B6D6500CCF31C /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
+		72E18ACF207B6D6500CCF31C /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
+		72E18AD2207B6FD400CCF31C /* RequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestModel.h; sourceTree = "<group>"; };
+		72E18AD3207B6FD400CCF31C /* RequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestModel.m; sourceTree = "<group>"; };
+		BFDD56895C77627C0D927477 /* Pods-MyAudioDome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAudioDome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAudioDome/Pods-MyAudioDome.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7225F8F21FBD65B800B63F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722B6B002018A0A900B8ED1D /* libmp3lame.a in Frameworks */,
+				E3B0E48F9D20FDD3F0EE42C0 /* libPods-MyAudioDome.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7225F90B1FBD65B800B63F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7225F9161FBD65B800B63F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BB3C3AF23599B8F18403973 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFDD56895C77627C0D927477 /* Pods-MyAudioDome.debug.xcconfig */,
+				16F6E03495B3332B9C6A1D96 /* Pods-MyAudioDome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72144C60201C11F0009CB079 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				72144C67201C2783009CB079 /* TBCycleView.h */,
+				72144C68201C2783009CB079 /* TBCycleView.m */,
+				72144C61201C1206009CB079 /* SoundSlider.h */,
+				72144C62201C1206009CB079 /* SoundSlider.m */,
+				72144C64201C232F009CB079 /* BgMusicButton.h */,
+				72144C65201C232F009CB079 /* BgMusicButton.m */,
+				72C33026207F4D8900D152FA /* myGitTestVC.h */,
+				72C33027207F4D8900D152FA /* myGitTestVC.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		7225F8EC1FBD65B800B63F00 = {
+			isa = PBXGroup;
+			children = (
+				7225F8F71FBD65B800B63F00 /* MyAudioDome */,
+				7225F9111FBD65B800B63F00 /* MyAudioDomeTests */,
+				7225F91C1FBD65B800B63F00 /* MyAudioDomeUITests */,
+				7225F8F61FBD65B800B63F00 /* Products */,
+				1BB3C3AF23599B8F18403973 /* Pods */,
+				C8093943A1EE249E7031275E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7225F8F61FBD65B800B63F00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7225F8F51FBD65B800B63F00 /* MyAudioDome.app */,
+				7225F90E1FBD65B800B63F00 /* MyAudioDomeTests.xctest */,
+				7225F9191FBD65B800B63F00 /* MyAudioDomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7225F8F71FBD65B800B63F00 /* MyAudioDome */ = {
+			isa = PBXGroup;
+			children = (
+				72E18AD1207B6FC000CCF31C /* Model */,
+				72E18ACD207B6D4A00CCF31C /* viewModel */,
+				724AE3B7202D392000CAD4AC /* otherVC */,
+				72144C60201C11F0009CB079 /* view */,
+				7225F8FB1FBD65B800B63F00 /* AppDelegate.h */,
+				7225F8FC1FBD65B800B63F00 /* AppDelegate.m */,
+				7249916F20804B2C006C9CB6 /* myGitHubTestVC.h */,
+				7249917020804B2D006C9CB6 /* myGitHubTestVC.m */,
+				72E18ACA207B1B3000CCF31C /* RACTestVC.h */,
+				72E18ACB207B1B3000CCF31C /* RACTestVC.m */,
+				72C3301E207F030600D152FA /* RACOtherVC.h */,
+				72C3301F207F030600D152FA /* RACOtherVC.m */,
+				72C33020207F030600D152FA /* RACOtherVC.xib */,
+				7225F8FE1FBD65B800B63F00 /* ViewController.h */,
+				7225F8FF1FBD65B800B63F00 /* ViewController.m */,
+				7225F9CF1FD1515100B63F00 /* SecondVC.h */,
+				7225F9D01FD1515100B63F00 /* SecondVC.m */,
+				724AE3B4202D359D00CAD4AC /* SoundEffectVC.h */,
+				724AE3B5202D359D00CAD4AC /* SoundEffectVC.m */,
+				7268074E1FF1DD8B00927817 /* RecordAudioVC.h */,
+				7268074F1FF1DD8B00927817 /* RecordAudioVC.m */,
+				72C239341FDA227A007CD7E8 /* SelectMusicVC.h */,
+				72C239351FDA227A007CD7E8 /* SelectMusicVC.m */,
+				726807E21FFF608E00927817 /* DownLoadOrUpLoadFileManager.h */,
+				726807E31FFF608E00927817 /* DownLoadOrUpLoadFileManager.m */,
+				7268078B1FFCE5A800927817 /* BgMusicItem.h */,
+				7268078C1FFCE5A800927817 /* BgMusicItem.m */,
+				7268078E1FFCE5C500927817 /* BgMusicItemModel.h */,
+				7268078F1FFCE5C500927817 /* BgMusicItemModel.m */,
+				726807551FF388AE00927817 /* CutAudioFileVC.h */,
+				726807561FF388AE00927817 /* CutAudioFileVC.m */,
+				7268075D1FF4CE1900927817 /* WaveVC.h */,
+				7268075E1FF4CE1900927817 /* WaveVC.m */,
+				726807601FF4D0BC00927817 /* HWDrawView.h */,
+				726807611FF4D0BC00927817 /* HWDrawView.m */,
+				7225F9011FBD65B800B63F00 /* Main.storyboard */,
+				7225F9041FBD65B800B63F00 /* Assets.xcassets */,
+				7225F9061FBD65B800B63F00 /* LaunchScreen.storyboard */,
+				7225F9091FBD65B800B63F00 /* Info.plist */,
+				7225F8F81FBD65B800B63F00 /* Supporting Files */,
+			);
+			path = MyAudioDome;
+			sourceTree = "<group>";
+		};
+		7225F8F81FBD65B800B63F00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72E18AC82079F51100CCF31C /* emotions.plist */,
+				722B6AFD2018A0A900B8ED1D /* Lame */,
+				72C5E6DB200F41ED004885CC /* Track.h */,
+				72C5E6DC200F41ED004885CC /* Track.m */,
+				726807E51FFF797F00927817 /* MCDownLoad */,
+				726807AE1FFE0A4B00927817 /* AudioPlayer */,
+				726807951FFDC84300927817 /* HttpTool.h */,
+				726807961FFDC84300927817 /* HttpTool.m */,
+				726807911FFCF19000927817 /* head1.jpg */,
+				726807921FFCF19000927817 /* head1.png */,
+				726807581FF4829700927817 /* MBProgressHUD+Add.h */,
+				726807591FF4829700927817 /* MBProgressHUD+Add.m */,
+				726807511FF34E2E00927817 /* JX_GCDTimer */,
+				7225FA131FD67BFD00B63F00 /* 7 AND 5-Remember.mp3 */,
+				7225FA141FD67BFD00B63F00 /* Approaching Nirvana-Quixote.mp3 */,
+				7225F9BA1FCEADE800B63F00 /* 胡杏儿-感激遇到你.mp3 */,
+				7225F9A11FC8012700B63F00 /* 陈奕迅-富士山下.mp3 */,
+				7225F99F1FC6CBBB00B63F00 /* 谢安琪-喜帖街.mp3 */,
+				7225F92B1FBD698E00B63F00 /* SNH48-天使与恶魔.mp3 */,
+				7225F8F91FBD65B800B63F00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7225F9111FBD65B800B63F00 /* MyAudioDomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7225F9121FBD65B800B63F00 /* MyAudioDomeTests.m */,
+				7225F9141FBD65B800B63F00 /* Info.plist */,
+			);
+			path = MyAudioDomeTests;
+			sourceTree = "<group>";
+		};
+		7225F91C1FBD65B800B63F00 /* MyAudioDomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7225F91D1FBD65B800B63F00 /* MyAudioDomeUITests.m */,
+				7225F91F1FBD65B800B63F00 /* Info.plist */,
+			);
+			path = MyAudioDomeUITests;
+			sourceTree = "<group>";
+		};
+		722B6AFD2018A0A900B8ED1D /* Lame */ = {
+			isa = PBXGroup;
+			children = (
+				722B6B012018A0B800B8ED1D /* ExtAudioConverter.h */,
+				722B6B022018A0B800B8ED1D /* ExtAudioConverter.m */,
+				722B6AFE2018A0A900B8ED1D /* lame.h */,
+				722B6AFF2018A0A900B8ED1D /* libmp3lame.a */,
+			);
+			path = Lame;
+			sourceTree = "<group>";
+		};
+		724AE3B7202D392000CAD4AC /* otherVC */ = {
+			isa = PBXGroup;
+			children = (
+				724AE3B8202D45BD00CAD4AC /* MoreEffectVC.h */,
+				724AE3B9202D45BD00CAD4AC /* MoreEffectVC.m */,
+				724AE3CA202D4EA000CAD4AC /* ExpanderFilterVC.h */,
+				724AE3CB202D4EA000CAD4AC /* ExpanderFilterVC.m */,
+				724AE3CC202D4EA000CAD4AC /* ExpanderFilterVC.xib */,
+				724AE3CF202D4EBA00CAD4AC /* AudioUnitFilterVC.h */,
+				724AE3D0202D4EBA00CAD4AC /* AudioUnitFilterVC.m */,
+				724AE3D1202D4EBA00CAD4AC /* AudioUnitFilterVC.xib */,
+				724AE3D4202D4ED100CAD4AC /* BandpassFilterVC.h */,
+				724AE3D5202D4ED100CAD4AC /* BandpassFilterVC.m */,
+				724AE3D6202D4ED100CAD4AC /* BandpassFilterVC.xib */,
+				724AE3D9202D4EE200CAD4AC /* DelayFilterVC.h */,
+				724AE3DA202D4EE200CAD4AC /* DelayFilterVC.m */,
+				724AE3DB202D4EE200CAD4AC /* DelayFilterVC.xib */,
+				724AE3DE202D4EF500CAD4AC /* DistortionFilterVC.h */,
+				724AE3DF202D4EF500CAD4AC /* DistortionFilterVC.m */,
+				724AE3E0202D4EF500CAD4AC /* DistortionFilterVC.xib */,
+				724AE3E3202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.h */,
+				724AE3E4202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.m */,
+				724AE3E5202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.xib */,
+				724AE3E8202D4F1E00CAD4AC /* HighPassFilterVC.h */,
+				724AE3E9202D4F1E00CAD4AC /* HighPassFilterVC.m */,
+				724AE3EA202D4F1E00CAD4AC /* HighPassFilterVC.xib */,
+				724AE3ED202D4F2E00CAD4AC /* HighShelfFilterVC.h */,
+				724AE3EE202D4F2E00CAD4AC /* HighShelfFilterVC.m */,
+				724AE3EF202D4F2E00CAD4AC /* HighShelfFilterVC.xib */,
+				724AE3F2202D4F4100CAD4AC /* LimiterFilterVC.h */,
+				724AE3F3202D4F4100CAD4AC /* LimiterFilterVC.m */,
+				724AE3F4202D4F4100CAD4AC /* LimiterFilterVC.xib */,
+				724AE3F7202D4F5200CAD4AC /* LowPassFilterVC.h */,
+				724AE3F8202D4F5200CAD4AC /* LowPassFilterVC.m */,
+				724AE3F9202D4F5200CAD4AC /* LowPassFilterVC.xib */,
+				724AE3FC202D4F6100CAD4AC /* LowShelfFilterVC.h */,
+				724AE3FD202D4F6100CAD4AC /* LowShelfFilterVC.m */,
+				724AE3FE202D4F6100CAD4AC /* LowShelfFilterVC.xib */,
+				724AE401202D4F7300CAD4AC /* NewTimePitchFilterVC.h */,
+				724AE402202D4F7300CAD4AC /* NewTimePitchFilterVC.m */,
+				724AE403202D4F7300CAD4AC /* NewTimePitchFilterVC.xib */,
+				724AE406202D4F8400CAD4AC /* ParametricEqFilterVC.h */,
+				724AE407202D4F8400CAD4AC /* ParametricEqFilterVC.m */,
+				724AE408202D4F8400CAD4AC /* ParametricEqFilterVC.xib */,
+				724AE40B202D4F9300CAD4AC /* PeakLimiterFilterVC.h */,
+				724AE40C202D4F9300CAD4AC /* PeakLimiterFilterVC.m */,
+				724AE40D202D4F9300CAD4AC /* PeakLimiterFilterVC.xib */,
+				724AE410202D4FA300CAD4AC /* ReverbFilterVC.h */,
+				724AE411202D4FA300CAD4AC /* ReverbFilterVC.m */,
+				724AE412202D4FA300CAD4AC /* ReverbFilterVC.xib */,
+				724AE415202D4FCB00CAD4AC /* VarispeedFilterVC.h */,
+				724AE416202D4FCB00CAD4AC /* VarispeedFilterVC.m */,
+				724AE417202D4FCB00CAD4AC /* VarispeedFilterVC.xib */,
+			);
+			name = otherVC;
+			sourceTree = "<group>";
+		};
+		726807511FF34E2E00927817 /* JX_GCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				726807521FF34E2E00927817 /* JX_GCDTimerManager.h */,
+				726807531FF34E2E00927817 /* JX_GCDTimerManager.m */,
+			);
+			path = JX_GCDTimer;
+			sourceTree = "<group>";
+		};
+		726807AE1FFE0A4B00927817 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				726807AF1FFE0A4B00927817 /* AudioButton.h */,
+				726807B01FFE0A4B00927817 /* AudioButton.m */,
+				726807B11FFE0A4B00927817 /* AudioPlayer.h */,
+				726807B21FFE0A4B00927817 /* AudioPlayer.m */,
+				726807B31FFE0A4B00927817 /* AudioStreamer.h */,
+				726807B41FFE0A4B00927817 /* AudioStreamer.m */,
+				726807B51FFE0A4B00927817 /* images */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		726807B51FFE0A4B00927817 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				726807B61FFE0A4B00927817 /* loading.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		726807E51FFF797F00927817 /* MCDownLoad */ = {
+			isa = PBXGroup;
+			children = (
+				726807E61FFF797F00927817 /* MCDownloader.h */,
+				726807E71FFF797F00927817 /* MCDownloader.m */,
+				726807E81FFF797F00927817 /* MCDownloadOperation.h */,
+				726807E91FFF797F00927817 /* MCDownloadOperation.m */,
+				726807EA1FFF797F00927817 /* MCDownloadReceipt.h */,
+				726807EB1FFF797F00927817 /* MCDownloadReceipt.m */,
+			);
+			path = MCDownLoad;
+			sourceTree = "<group>";
+		};
+		72E18ACD207B6D4A00CCF31C /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				72E18ACE207B6D6500CCF31C /* RequestViewModel.h */,
+				72E18ACF207B6D6500CCF31C /* RequestViewModel.m */,
+			);
+			name = viewModel;
+			sourceTree = "<group>";
+		};
+		72E18AD1207B6FC000CCF31C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72E18AD2207B6FD400CCF31C /* RequestModel.h */,
+				72E18AD3207B6FD400CCF31C /* RequestModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C8093943A1EE249E7031275E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5624EA0C68BFB8D966340195 /* libPods-MyAudioDome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7225F8F41FBD65B800B63F00 /* MyAudioDome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7225F9221FBD65B800B63F00 /* Build configuration list for PBXNativeTarget "MyAudioDome" */;
+			buildPhases = (
+				B0465DA71C4457395D010976 /* [CP] Check Pods Manifest.lock */,
+				7225F8F11FBD65B800B63F00 /* Sources */,
+				7225F8F21FBD65B800B63F00 /* Frameworks */,
+				7225F8F31FBD65B800B63F00 /* Resources */,
+				B30C666D9349A3BE2989BE6F /* [CP] Embed Pods Frameworks */,
+				4CC8DCF0A1C68C4876779315 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAudioDome;
+			productName = MyAudioDome;
+			productReference = 7225F8F51FBD65B800B63F00 /* MyAudioDome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7225F90D1FBD65B800B63F00 /* MyAudioDomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7225F9251FBD65B800B63F00 /* Build configuration list for PBXNativeTarget "MyAudioDomeTests" */;
+			buildPhases = (
+				7225F90A1FBD65B800B63F00 /* Sources */,
+				7225F90B1FBD65B800B63F00 /* Frameworks */,
+				7225F90C1FBD65B800B63F00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7225F9101FBD65B800B63F00 /* PBXTargetDependency */,
+			);
+			name = MyAudioDomeTests;
+			productName = MyAudioDomeTests;
+			productReference = 7225F90E1FBD65B800B63F00 /* MyAudioDomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7225F9181FBD65B800B63F00 /* MyAudioDomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7225F9281FBD65B800B63F00 /* Build configuration list for PBXNativeTarget "MyAudioDomeUITests" */;
+			buildPhases = (
+				7225F9151FBD65B800B63F00 /* Sources */,
+				7225F9161FBD65B800B63F00 /* Frameworks */,
+				7225F9171FBD65B800B63F00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7225F91B1FBD65B800B63F00 /* PBXTargetDependency */,
+			);
+			name = MyAudioDomeUITests;
+			productName = MyAudioDomeUITests;
+			productReference = 7225F9191FBD65B800B63F00 /* MyAudioDomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7225F8ED1FBD65B800B63F00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = qiding;
+				TargetAttributes = {
+					7225F8F41FBD65B800B63F00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KJZJ9FT4FA;
+						ProvisioningStyle = Automatic;
+					};
+					7225F90D1FBD65B800B63F00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KJZJ9FT4FA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7225F8F41FBD65B800B63F00;
+					};
+					7225F9181FBD65B800B63F00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KJZJ9FT4FA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7225F8F41FBD65B800B63F00;
+					};
+				};
+			};
+			buildConfigurationList = 7225F8F01FBD65B800B63F00 /* Build configuration list for PBXProject "MyAudioDome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7225F8EC1FBD65B800B63F00;
+			productRefGroup = 7225F8F61FBD65B800B63F00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7225F8F41FBD65B800B63F00 /* MyAudioDome */,
+				7225F90D1FBD65B800B63F00 /* MyAudioDomeTests */,
+				7225F9181FBD65B800B63F00 /* MyAudioDomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7225F8F31FBD65B800B63F00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724AE3DD202D4EE200CAD4AC /* DelayFilterVC.xib in Resources */,
+				724AE405202D4F7300CAD4AC /* NewTimePitchFilterVC.xib in Resources */,
+				724AE414202D4FA300CAD4AC /* ReverbFilterVC.xib in Resources */,
+				724AE3EC202D4F1E00CAD4AC /* HighPassFilterVC.xib in Resources */,
+				726807BD1FFE0A4B00927817 /* loading.png in Resources */,
+				724AE3F1202D4F2E00CAD4AC /* HighShelfFilterVC.xib in Resources */,
+				724AE3F6202D4F4100CAD4AC /* LimiterFilterVC.xib in Resources */,
+				724AE400202D4F6100CAD4AC /* LowShelfFilterVC.xib in Resources */,
+				7225F9081FBD65B800B63F00 /* LaunchScreen.storyboard in Resources */,
+				726807931FFCF19000927817 /* head1.jpg in Resources */,
+				7225F9A01FC6CBBB00B63F00 /* 谢安琪-喜帖街.mp3 in Resources */,
+				724AE3E7202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.xib in Resources */,
+				724AE419202D4FCB00CAD4AC /* VarispeedFilterVC.xib in Resources */,
+				724AE3E2202D4EF500CAD4AC /* DistortionFilterVC.xib in Resources */,
+				72E18AC92079F51100CCF31C /* emotions.plist in Resources */,
+				7225F9051FBD65B800B63F00 /* Assets.xcassets in Resources */,
+				724AE40A202D4F8400CAD4AC /* ParametricEqFilterVC.xib in Resources */,
+				7225F9031FBD65B800B63F00 /* Main.storyboard in Resources */,
+				72C33022207F030600D152FA /* RACOtherVC.xib in Resources */,
+				724AE3FB202D4F5200CAD4AC /* LowPassFilterVC.xib in Resources */,
+				7225F9BB1FCEADE800B63F00 /* 胡杏儿-感激遇到你.mp3 in Resources */,
+				724AE3D3202D4EBA00CAD4AC /* AudioUnitFilterVC.xib in Resources */,
+				724AE40F202D4F9300CAD4AC /* PeakLimiterFilterVC.xib in Resources */,
+				7225FA161FD67BFD00B63F00 /* Approaching Nirvana-Quixote.mp3 in Resources */,
+				7225FA151FD67BFD00B63F00 /* 7 AND 5-Remember.mp3 in Resources */,
+				7225F9A21FC8012700B63F00 /* 陈奕迅-富士山下.mp3 in Resources */,
+				724AE3D8202D4ED100CAD4AC /* BandpassFilterVC.xib in Resources */,
+				726807941FFCF19000927817 /* head1.png in Resources */,
+				7225F92C1FBD698E00B63F00 /* SNH48-天使与恶魔.mp3 in Resources */,
+				724AE3CE202D4EA000CAD4AC /* ExpanderFilterVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7225F90C1FBD65B800B63F00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7225F9171FBD65B800B63F00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CC8DCF0A1C68C4876779315 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyAudioDome/Pods-MyAudioDome-resources.sh",
+				"${PODS_ROOT}/JCAlertView/JCAlertView/JCAlertView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JCAlertView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAudioDome/Pods-MyAudioDome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0465DA71C4457395D010976 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAudioDome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B30C666D9349A3BE2989BE6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyAudioDome/Pods-MyAudioDome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DOUAudioStreamer/DOUAudioStreamer.framework",
+				"${BUILT_PRODUCTS_DIR}/EZAudio/EZAudio.framework",
+				"${BUILT_PRODUCTS_DIR}/JCAlertView/JCAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/NinaPagerView/NinaPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TPCircularBuffer/TPCircularBuffer.framework",
+				"${BUILT_PRODUCTS_DIR}/TheAmazingAudioEngine/TheAmazingAudioEngine.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DOUAudioStreamer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZAudio.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JCAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NinaPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPCircularBuffer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TheAmazingAudioEngine.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAudioDome/Pods-MyAudioDome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7225F8F11FBD65B800B63F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726807501FF1DD8B00927817 /* RecordAudioVC.m in Sources */,
+				724AE404202D4F7300CAD4AC /* NewTimePitchFilterVC.m in Sources */,
+				724AE3CD202D4EA000CAD4AC /* ExpanderFilterVC.m in Sources */,
+				724AE3EB202D4F1E00CAD4AC /* HighPassFilterVC.m in Sources */,
+				72E18AD0207B6D6500CCF31C /* RequestViewModel.m in Sources */,
+				726807E41FFF608E00927817 /* DownLoadOrUpLoadFileManager.m in Sources */,
+				724AE3E1202D4EF500CAD4AC /* DistortionFilterVC.m in Sources */,
+				726807EC1FFF797F00927817 /* MCDownloader.m in Sources */,
+				72C33028207F4D8900D152FA /* myGitTestVC.m in Sources */,
+				72144C66201C232F009CB079 /* BgMusicButton.m in Sources */,
+				72C5E6DD200F41ED004885CC /* Track.m in Sources */,
+				724AE409202D4F8400CAD4AC /* ParametricEqFilterVC.m in Sources */,
+				724AE40E202D4F9300CAD4AC /* PeakLimiterFilterVC.m in Sources */,
+				7225F9001FBD65B800B63F00 /* ViewController.m in Sources */,
+				726807EE1FFF797F00927817 /* MCDownloadReceipt.m in Sources */,
+				726807571FF388AE00927817 /* CutAudioFileVC.m in Sources */,
+				726807BC1FFE0A4B00927817 /* AudioStreamer.m in Sources */,
+				7268075F1FF4CE1900927817 /* WaveVC.m in Sources */,
+				722B6B032018A0B800B8ED1D /* ExtAudioConverter.m in Sources */,
+				724AE3E6202D4F0B00CAD4AC /* DynamicsProcessorFilterVC.m in Sources */,
+				726807541FF34E2E00927817 /* JX_GCDTimerManager.m in Sources */,
+				724AE413202D4FA300CAD4AC /* ReverbFilterVC.m in Sources */,
+				7268078D1FFCE5A800927817 /* BgMusicItem.m in Sources */,
+				72144C63201C1206009CB079 /* SoundSlider.m in Sources */,
+				724AE3BA202D45BD00CAD4AC /* MoreEffectVC.m in Sources */,
+				7268075A1FF4829700927817 /* MBProgressHUD+Add.m in Sources */,
+				726807BB1FFE0A4B00927817 /* AudioPlayer.m in Sources */,
+				726807901FFCE5C500927817 /* BgMusicItemModel.m in Sources */,
+				7225F8FD1FBD65B800B63F00 /* AppDelegate.m in Sources */,
+				726807621FF4D0BC00927817 /* HWDrawView.m in Sources */,
+				72C239361FDA227A007CD7E8 /* SelectMusicVC.m in Sources */,
+				726807BA1FFE0A4B00927817 /* AudioButton.m in Sources */,
+				724AE3FA202D4F5200CAD4AC /* LowPassFilterVC.m in Sources */,
+				7225F9D11FD1515100B63F00 /* SecondVC.m in Sources */,
+				724AE3DC202D4EE200CAD4AC /* DelayFilterVC.m in Sources */,
+				724AE3FF202D4F6100CAD4AC /* LowShelfFilterVC.m in Sources */,
+				726807ED1FFF797F00927817 /* MCDownloadOperation.m in Sources */,
+				724AE3D2202D4EBA00CAD4AC /* AudioUnitFilterVC.m in Sources */,
+				724AE418202D4FCB00CAD4AC /* VarispeedFilterVC.m in Sources */,
+				72E18AD4207B6FD400CCF31C /* RequestModel.m in Sources */,
+				7225F8FA1FBD65B800B63F00 /* main.m in Sources */,
+				7249917120804B2D006C9CB6 /* myGitHubTestVC.m in Sources */,
+				72C33021207F030600D152FA /* RACOtherVC.m in Sources */,
+				724AE3F5202D4F4100CAD4AC /* LimiterFilterVC.m in Sources */,
+				72E18ACC207B1B3000CCF31C /* RACTestVC.m in Sources */,
+				724AE3F0202D4F2E00CAD4AC /* HighShelfFilterVC.m in Sources */,
+				726807971FFDC84300927817 /* HttpTool.m in Sources */,
+				724AE3D7202D4ED100CAD4AC /* BandpassFilterVC.m in Sources */,
+				724AE3B6202D359D00CAD4AC /* SoundEffectVC.m in Sources */,
+				72144C69201C2783009CB079 /* TBCycleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7225F90A1FBD65B800B63F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7225F9131FBD65B800B63F00 /* MyAudioDomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7225F9151FBD65B800B63F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7225F91E1FBD65B800B63F00 /* MyAudioDomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7225F9101FBD65B800B63F00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7225F8F41FBD65B800B63F00 /* MyAudioDome */;
+			targetProxy = 7225F90F1FBD65B800B63F00 /* PBXContainerItemProxy */;
+		};
+		7225F91B1FBD65B800B63F00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7225F8F41FBD65B800B63F00 /* MyAudioDome */;
+			targetProxy = 7225F91A1FBD65B800B63F00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7225F9011FBD65B800B63F00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7225F9021FBD65B800B63F00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7225F9061FBD65B800B63F00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7225F9071FBD65B800B63F00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7225F9201FBD65B800B63F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7225F9211FBD65B800B63F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7225F9231FBD65B800B63F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFDD56895C77627C0D927477 /* Pods-MyAudioDome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KJZJ9FT4FA;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MyAudioDome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyAudioDome/Lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qiding.MyAudioDome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7225F9241FBD65B800B63F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F6E03495B3332B9C6A1D96 /* Pods-MyAudioDome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KJZJ9FT4FA;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MyAudioDome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyAudioDome/Lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = qiding.MyAudioDome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7225F9261FBD65B800B63F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KJZJ9FT4FA;
+				INFOPLIST_FILE = MyAudioDomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiding.MyAudioDomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAudioDome.app/MyAudioDome";
+			};
+			name = Debug;
+		};
+		7225F9271FBD65B800B63F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KJZJ9FT4FA;
+				INFOPLIST_FILE = MyAudioDomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiding.MyAudioDomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAudioDome.app/MyAudioDome";
+			};
+			name = Release;
+		};
+		7225F9291FBD65B800B63F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KJZJ9FT4FA;
+				INFOPLIST_FILE = MyAudioDomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiding.MyAudioDomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyAudioDome;
+			};
+			name = Debug;
+		};
+		7225F92A1FBD65B800B63F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KJZJ9FT4FA;
+				INFOPLIST_FILE = MyAudioDomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qiding.MyAudioDomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyAudioDome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7225F8F01FBD65B800B63F00 /* Build configuration list for PBXProject "MyAudioDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7225F9201FBD65B800B63F00 /* Debug */,
+				7225F9211FBD65B800B63F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7225F9221FBD65B800B63F00 /* Build configuration list for PBXNativeTarget "MyAudioDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7225F9231FBD65B800B63F00 /* Debug */,
+				7225F9241FBD65B800B63F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7225F9251FBD65B800B63F00 /* Build configuration list for PBXNativeTarget "MyAudioDomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7225F9261FBD65B800B63F00 /* Debug */,
+				7225F9271FBD65B800B63F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7225F9281FBD65B800B63F00 /* Build configuration list for PBXNativeTarget "MyAudioDomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7225F9291FBD65B800B63F00 /* Debug */,
+				7225F92A1FBD65B800B63F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7225F8ED1FBD65B800B63F00 /* Project object */;
+}
