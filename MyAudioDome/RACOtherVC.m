@@ -43,6 +43,16 @@
         _currentNum = [NSString stringWithFormat:@"%ld",(long)num];
         _numLabel.text = _currentNum;
     }];
+    
+    RACSubject * subject = [RACSubject subject];
+    
+    [subject subscribeNext:^(id  _Nullable x) {
+        
+    } error:^(NSError * _Nullable error) {
+        
+    } completed:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
